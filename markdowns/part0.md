@@ -17,7 +17,7 @@ def kaffe:
 
 Välj "Run my code" för att köra programmet. Programmet kör och text skrivs ut på skärmen.
 
-@[Test unittest: lab01]({"stubs":["lab01.py"], "command":"lab01_tests.Lab01.lab01test"})
+@[Test unittest: lab01]({"stubs":["lab01.py"], "command":"lab01_tests.Lab01.lab01"})
 
 ## Uppgift 2:
 
