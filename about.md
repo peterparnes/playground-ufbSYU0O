@@ -1,6 +1,7 @@
-Describe your content in this file.
+# Luleå tekniska universitet 
 
-- Requirements
-- What will I learn?
-- Technologies
-- etc
+# Introduktion till programmering – D0009E
+
+I denna kurs får du en introduktion till programmeringsspråket Python. 
+
+Uppgifterna är skapade av Fredrik Bengtsson och anpassade av Peter Parnes. 

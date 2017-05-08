@@ -1,6 +1,12 @@
-title : Content name
+title : Introduktion till programmering – D0009E
 plan:
-  - title: Part 1
+  - title: Lab 0: Bekanta sig med miljön 
+    statement: markdowns/part0.md
+  - title: Lab 1: Aritmetik och utskrift
     statement: markdowns/part1.md
-  - title: Part 2
+  - title: Lab 2: Rekursion och iteration
     statement: markdowns/part2.md
+  - title: Lab 3: Strängar, listor och dictionaries
+    statement: markdowns/part3.md
+  - title: Lab 4: Filer, alias, undantag...
+    statement: markdowns/part4.md
