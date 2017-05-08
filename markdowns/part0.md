@@ -12,9 +12,11 @@ namn = "Anna Andersson"
 print "Jag heter "+namn
 n = 2
 print "Jag har druckit", n, "koppar kaffe idag."
+```
 
 Välj "Run my code" för att köra programmet. Programmet kör och text skrivs ut på skärmen.
-```
+
+@[Test unittest: lab01]({"stubs":["lab01.py"], "command":"lab01_tests.Lab01.lab01"})
 
 ## Uppgift 2:
 
