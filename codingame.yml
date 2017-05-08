@@ -14,7 +14,7 @@ plan:
 projects:
   first-project:
      root: /lab0
-  runner:
-     name: codingame/python3-unittest-runner
-     version: 1.1.0-python-3.6
+     runner:
+       name: codingame/python3-unittest-runner
+       version: 1.1.0-python-3.6
 
