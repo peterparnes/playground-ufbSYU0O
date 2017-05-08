@@ -6,6 +6,7 @@ Det här är den allra första labben i D0009E. Den är tänkt som en introdukti
 
 Skriv in följande program i programrutan nedan:
 
+```python
 print "Detta är ett program som räknar hur mycket kaffe du dricker."
 namn = "Anna Andersson"
 print "Jag heter "+namn
@@ -13,13 +14,16 @@ n = 2
 print "Jag har druckit", n, "koppar kaffe idag."
 
 Välj "Run my code" för att köra programmet. Programmet kör och text skrivs ut på skärmen.
+```
 
 ## Uppgift 2:
 
 Lägg till följande rader till programet (efter dom andra raderna):
 
+```python
 n = 3
 print "Jag har druckit", n, "koppar kaffe idag."
+```
 
 Välj "Run my code" för att köra programmet. Programmet kör och text skrivs ut på skärmen. Fundera på varför de två sista print-satserna skriver ut olika text fast det är samma sats. 
 
