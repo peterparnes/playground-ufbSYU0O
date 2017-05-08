@@ -7,12 +7,14 @@ Det här är den allra första labben i D0009E. Den är tänkt som en introdukti
 Skriv in följande program i programrutan nedan:
 
 ```python
-def kaffe: 
-  print "Detta är ett program som räknar hur mycket kaffe du dricker."
+def kaffe():
+  print("Detta är ett program som räknar hur mycket kaffe du dricker.")
   namn = "Anna Andersson"
-  print "Jag heter "+namn
+  print("Jag heter " + namn)
   n = 2
-  print "Jag har druckit", n, "koppar kaffe idag."
+  druckit = "Jag har druckit " + str(n) + " koppar kaffe idag."
+  print(druckit)
+  return druckit
 ```
 
 Välj "Run my code" för att köra programmet. Programmet kör och text skrivs ut på skärmen.
@@ -21,13 +23,10 @@ Välj "Run my code" för att köra programmet. Programmet kör och text skrivs u
 
 ## Uppgift 2:
 
-Lägg till följande rader till programet (efter dom andra raderna):
-
-```python
-  n = 3
-  print "Jag har druckit", n, "koppar kaffe idag."
-```
+Kan du ändra programmet det står att du druckit 3 koppar kaffe? 
 
 Välj "Run my code" för att köra programmet. Programmet kör och text skrivs ut på skärmen. Fundera på varför de två sista print-satserna skriver ut olika text fast det är samma sats. 
+
+@[Test unittest: lab01]({"stubs":["lab02.py"], "command":"lab01_tests.Lab01.lab02"})
 
 Du har nu skrivit, kört och modifierat ett pythonprogram! 
