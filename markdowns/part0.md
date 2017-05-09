@@ -29,7 +29,7 @@ Välj "Run my code" för att köra programmet. Programmet kör och text skrivs u
 
 @[Lab0 del 2]({"stubs":["lab02.py"], "command":"lab0_tests.Lab0.lab02"})
 
-@[Lab0 del 2]({"stubs":["lab02.py"], "command":"python check_lab02.py"})
+@[Lab0 del 2]({"stubs":["lab03.py"], "command":"python check_lab02.py"})
 
 
 Du har nu skrivit, kört och modifierat ett pythonprogram! 
