@@ -19,7 +19,7 @@ def kaffe():
 
 Välj "Run my code" för att köra programmet. Programmet kör och text skrivs ut på skärmen.
 
-@[Test unittest: lab01]({"stubs":["lab01.py"], "command":"lab01_tests.Lab01.lab01"})
+@[Lab0 del 1]({"stubs":["lab01.py"], "command":"lab0_tests.Lab0.lab01"})
 
 ## Uppgift 2:
 
@@ -27,6 +27,6 @@ Kan du ändra programmet det står att du druckit 3 koppar kaffe?
 
 Välj "Run my code" för att köra programmet. Programmet kör och text skrivs ut på skärmen. Fundera på varför de två sista print-satserna skriver ut olika text fast det är samma sats. 
 
-@[Test unittest: lab01]({"stubs":["lab02.py"], "command":"lab01_tests.Lab01.lab02"})
+@[Lab0 del 2]({"stubs":["lab02.py"], "command":"lab0_tests.Lab0.lab02"})
 
 Du har nu skrivit, kört och modifierat ett pythonprogram! 

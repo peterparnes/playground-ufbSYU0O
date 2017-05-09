@@ -7,5 +7,4 @@ def kaffe():
   n = 2
   druckit = "Jag har druckit " + str(n) + " koppar kaffe idag."
   print(druckit)
-  
   return druckit
