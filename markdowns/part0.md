@@ -22,8 +22,11 @@ Välj "Run my code" för att köra programmet. Programmet kör och text skrivs u
 
 Kan du ändra programmet det står att du druckit 3 koppar kaffe? 
 
-Välj "Run my code" för att köra programmet. Programmet kör och text skrivs ut på skärmen. Fundera på varför de två sista print-satserna skriver ut olika text fast det är samma sats. 
+Välj "Run my code" för att köra programmet. Programmet kör och text skrivs ut på skärmen. 
 
 @[Lab0 del 2]({"stubs":["lab02.py"], "command":"python lab02.py | python check_lab02.py"})
+
+@[Lab0 del 2]({"stubs":["lab02.py"], "command":"python check_lab02.py"})
+
 
 Du har nu skrivit, kört och modifierat ett pythonprogram! 
