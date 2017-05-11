@@ -23,5 +23,5 @@ class Lab0(unittest.TestCase):
         self.assertEqual(data[2], "Jag har druckit 3 koppar kaffe idag.", "Fel utskrift.")
 
 
-l = Lab0()
-l.lab02()
+#l = Lab0()
+#l.lab02()
