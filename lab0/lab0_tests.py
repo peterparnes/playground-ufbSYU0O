@@ -1,12 +1,25 @@
 import unittest
+import subprocess
+from contextlib import contextmanager
+import contextlib
+
+from io import StringIO
+from unittest.mock import patch
 
 class Lab0(unittest.TestCase):
-    def lab01(self):
-        import lab01
-        self.assertEqual(lab01.kaffe(), "Jag har druckit 2 koppar kaffe idag.", "Tyvärr fel utskrift.")
         
-    def lab02(self):
-        import lab02
-        self.assertEqual(lab02.kaffe(), "Jag har druckit 3 koppar kaffe idag.", "Tyvärr fel utskrift.")
+    def lab01(self): 
+        output = subprocess.run(["python3", "lab01.py"], stdout=subprocess.PIPE).stdout.decode('utf-8')
+        # print(output)        
+        data = output.splitlines();
+        self.assertEqual(data[2], "Jag har druckit 2 koppar kaffe idag.", "Tyvärr fel utskrift.")
         
-        
+    def lab02(self): 
+        output = subprocess.run(["python3", "lab02.py"], stdout=subprocess.PIPE).stdout.decode('utf-8')
+        # print(output)        
+        data = output.splitlines();
+        self.assertEqual(data[2], "Jag har druckit 3 koppar kaffe idag.", "Tyvärr fel utskrift.")
+
+
+l = Lab0()
+l.lab01()
