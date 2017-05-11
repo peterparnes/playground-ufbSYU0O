@@ -1,6 +1,6 @@
 # Lab 0 - En inledande övning 
 
-Det här är den allra första labben i D0009E. Den är tänkt som en introduktion till själva utvecklingsmiljön och till att skriva program. Vi ska inte lösa några problem i denna introduktionslab, utan det kommer först i nästa lab. 
+XX Det här är den allra första labben i D0009E. Den är tänkt som en introduktion till själva utvecklingsmiljön och till att skriva program. Vi ska inte lösa några problem i denna introduktionslab, utan det kommer först i nästa lab. 
 
 ## Uppgift 1
 
@@ -16,7 +16,7 @@ print("Jag har druckit " + str(n) + " koppar kaffe idag.")
 
 Välj "Run my code" för att köra programmet. Programmet kör och text skrivs ut på skärmen.
 
-@[Lab0 del 1]({"stubs":["lab01.py"], "command":"python lab01.py | python check_lab01.py"})
+@[Lab0 del 1]({"stubs":["lab01.py"], "command":"lab0_tests.Lab0.lab01"})
 
 ## Uppgift 2:
 
@@ -24,9 +24,6 @@ Kan du ändra programmet det står att du druckit 3 koppar kaffe?
 
 Välj "Run my code" för att köra programmet. Programmet kör och text skrivs ut på skärmen. 
 
-@[Lab0 del 2]({"stubs":["lab02.py"], "command":"python lab02.py | python check_lab02.py"})
-
-@[Lab0 del 2]({"stubs":["lab02.py"], "command":"python check_lab02.py"})
-
+@[Lab0 del 2]({"stubs":["lab02.py"], "command":"lab0_tests.Lab0.lab02"})
 
 Du har nu skrivit, kört och modifierat ett pythonprogram! 
