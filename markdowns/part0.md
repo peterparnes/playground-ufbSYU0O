@@ -1,6 +1,6 @@
 # Lab 0 - En inledande övning 
 
-XX Det här är den allra första labben i D0009E. Den är tänkt som en introduktion till själva utvecklingsmiljön och till att skriva program. Vi ska inte lösa några problem i denna introduktionslab, utan det kommer först i nästa lab. 
+Det här är den allra första labben i D0009E. Den är tänkt som en introduktion till själva utvecklingsmiljön och till att skriva program. Vi ska inte lösa några problem i denna introduktionslab, utan det kommer först i nästa lab. 
 
 ## Uppgift 1
 
